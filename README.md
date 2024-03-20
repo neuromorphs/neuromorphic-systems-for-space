@@ -8,6 +8,6 @@ Descriptions and materials for the [Telluride 2024 Topic Area](https://sites.goo
     * [Gregory Cohen](https://westernsydney.edu.au/icns/about/people/researchers/gregory_cohen)
     * [Gregor Lenz](https://lenzgregor.com/)
 * Co-organizers
-    * [Alexandra Marcireau](https://github.com/aMarcireau)
+    * [Alexandre Marcireau](https://github.com/aMarcireau)
     * [Giulia D'Angelo](https://github.com/giuliadangelo)
     * [Jens Egholm Pedersen](https://jepedersen.dk)
