@@ -5,11 +5,14 @@ Descriptions and materials for the [Telluride 2024 Topic Area](https://sites.goo
 
 ## Tutorials
 * [On star mapping](https://github.com/neuromorphicsystems/tutorials) by ICNS that can be run on Google Colab
+* [Converting simulated neuromorphic models to hardware with the Neuromorphic Intermediate Representation](https://neuroir.org/docs/usage.html)
 
 ## Relevant papers
 * [Event-based object detection and tracking for space situational awareness](https://ieeexplore.ieee.org/abstract/document/9142352/)
 * [Binocular Telescope for Neuromorphic Space Situational Awareness](https://ui.adsabs.harvard.edu/abs/2023amos.conf..137M/abstract)
 * [Neuromorphic sensing and processing for space domain awareness](https://ieeexplore.ieee.org/abstract/document/10282763/)
+* [A simple neuron servo](https://ieeexplore.ieee.org/document/80335/)
+* [Neuromorphic Intermediate Representation: A Unified Instruction Set for Interoperable Brain-Inspired Computing](https://arxiv.org/abs/2311.14641)
 
 ## Acknowledgements
 * [Gregory Cohen](https://westernsydney.edu.au/icns/about/people/researchers/gregory_cohen)
