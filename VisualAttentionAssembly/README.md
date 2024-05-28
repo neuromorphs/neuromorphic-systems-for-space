@@ -1,6 +1,6 @@
 # Low-Power Visual Attention in In-Space Assembly Using Relative Motion 📡🚀
 
-Organisers: 
+Organisers:
 
 **Giulia D'Angelo**, giulia.dangelo.1990@gmail.com
 
@@ -8,7 +8,7 @@ Department of Cybernetics, Czech Technical University in Prague
 
 **Alexander Hadjiivanov**, alexander.hadjiivanov@esa.int
 
-ESA Advanced Concepts Team
+Advanced Concepts Team, European Space Agency
 
 
 ## Introduction 🌟
@@ -54,25 +54,19 @@ Relative motion estimation involves calculating the disparity in motion between 
 
 ## 📋 What You Need to Do
 
-In this project, you will use the visual attention mechanism to detect the presence of teh aircraft. 
+In this project, you will use the visual attention mechanism to detect the presence of teh aircraft.
 We want you to create an innovative algorithm for in-space assembly and/or correct landing on a surface.
-You can use any mechanism or algorithm you think is relevant to solve the problem. 
-You are strongly encouraged to explore other visual attention mechanisms if you prefer. 
+You can use any mechanism or algorithm you think is relevant to solve the problem.
+You are strongly encouraged to explore other visual attention mechanisms if you prefer.
 Your task is to come up with a solution that ensures precise pose estimation and alignment of spacecraft components during proximity operations, crucial for successful in-space assembly or achieving a precise landing on a surface.
 
-Here are some references to get you started and/or take inspiration from to build the best solution ever!!!: 
+Here are some references to get you started and/or take inspiration from to build the best solution ever!!!:
 
 - [Relative Motion Estimation Based on Sensor Eigenfusion Using a Stereoscopic Vision System and Adaptive Statistical Filtering](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7559174)
-- [Relative Motion Estimation for Vision-based
-Formation Flight using Unscented Kalman Filter](https://www.researchgate.net/profile/Eric-Johnson-67/publication/250337270_Relative_Motion_Estimation_for_Vision-Based_Formation_Flight_Using_Unscented_Kalman_Filter/links/552290320cf2f9c13052e46a/Relative-Motion-Estimation-for-Vision-Based-Formation-Flight-Using-Unscented-Kalman-Filter.pdf)
 - [A 5-Point Minimal Solver for Event Camera Relative Motion Estimation](https://rpg.ifi.uzh.ch/docs/ICCV23_Gao.pdf)
-- [MODEL BASED VISUAL RELATIVE MOTION
-ESTIMATION AND CONTROL OF A SPACECRAFT
-UTILIZING COMPUTER GRAPHICS](https://issfd.org/ISSFD_2009/FormationFlyingII/Terui.pdf)
-- [ON THE GENERATION OF A SYNTHETIC EVENT-BASED VISION DATASET FOR
-NAVIGATION AND LANDING](https://arxiv.org/pdf/2308.00394)
-
-
+- [Relative Motion Estimation for Vision-based Formation Flight using Unscented Kalman Filter](https://www.researchgate.net/profile/Eric-Johnson-67/publication/250337270_Relative_Motion_Estimation_for_Vision-Based_Formation_Flight_Using_Unscented_Kalman_Filter/links/552290320cf2f9c13052e46a/Relative-Motion-Estimation-for-Vision-Based-Formation-Flight-Using-Unscented-Kalman-Filter.pdf)
+- [On The Generation of a Synthetic Event-based Vision Dataset for Navigation and Landing](https://arxiv.org/pdf/2308.00394)
+- [Model Based Visual Relative Motion Estimation and Control of a Spacecraft Utilizing Computer Graphics](https://issfd.org/ISSFD_2009/FormationFlyingII/Terui.pdf)
 
 
 ## Project Components 🧩
@@ -80,7 +74,7 @@ NAVIGATION AND LANDING](https://arxiv.org/pdf/2308.00394)
 ### 1. Event-Based Camera Setup 🎥🔧
 
 We'll begin by setting up event-based cameras to capture real-time motion events. This involves calibrating the cameras and ensuring they are correctly positioned to monitor the assembly process.
-To get ready with the tutorial we can use recorded data for simulation! 
+To get ready with the tutorial we can use recorded data for simulation!
 
 ### 2. Visual Attention Algorithm Development 🧠💻
 
