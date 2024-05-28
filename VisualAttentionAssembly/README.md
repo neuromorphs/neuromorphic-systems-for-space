@@ -1,5 +1,16 @@
 # Low-Power Visual Attention in In-Space Assembly Using Relative Motion 📡🚀
 
+Organisers: 
+
+**Giulia D'Angelo**, giulia.dangelo.1990@gmail.com
+
+Department of Cybernetics, Czech Technical University in Prague
+
+**Alexander Hadjiivanov**, alexander.hadjiivanov@esa.int
+
+ESA Advanced Concepts Team
+
+
 ## Introduction 🌟
 
 Welcome to the Telluride 2024 Workshop in beautiful Colorado! This tutorial will guide you through our exciting project on low-power visual attention for in-space assembly using relative motion. In-space assembly of spacecraft is a highly precise task requiring accurate pose estimation of neighboring modules. This involves determining their relative position and attitude during proximity operations, which is crucial for successful assembly.
