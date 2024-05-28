@@ -28,9 +28,41 @@ If you want to know more about attention mechanisms and where the model takes in
 
 [![Low-Power Visual Attention in In-Space Assembly](https://img.youtube.com/vi/vwT_3bNNStg/0.jpg)](https://www.youtube.com/watch?v=vwT_3bNNStg&ab_channel=OpenNeuromorphic)
 
+
+### References
+- [D’Angelo, Giulia, et al. "Event driven bio-inspired attentive system for the iCub humanoid robot on SpiNNaker." *Neuromorphic Computing and Engineering* 2.2 (2022): 024008](https://iopscience.iop.org/article/10.1088/2634-4386/ac7ab6).
+- [Iacono, M., D’Angelo, G., Glover, A., Tikhanoff, V., Niebur, E., & Bartolozzi, C. (2019, November). Proto-object based saliency for event-driven cameras. In 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (pp. 805-812). IEEE.](https://ieeexplore.ieee.org/abstract/document/8967943?casa_token=fR5p7q6rp0YAAAAA:lIfq0Q1Qd2nw0rCW4AIpYZA9Lnj9wcNqjSyhGxmM1N3fOgl7D6EoQKt6m7i2FzwtDxY9IZEGLw)
+- [Ghosh, S., D’Angelo, G., Glover, A., Iacono, M., Niebur, E., & Bartolozzi, C. (2022). Event-driven proto-object based saliency in 3D space to attract a robot’s attention. Scientific reports, 12(1), 7645.](https://www.nature.com/articles/s41598-022-11723-6)
+- [D'Angelo, G. (2022). A bio-inspired attentive model to predict perceptual saliency in natural scenes. The University of Manchester (United Kingdom).](https://www.proquest.com/openview/5cef6fddfe963d20ec1d663d6de5ea4f/1?pq-origsite=gscholar&cbl=51922&diss=y)
+
+
 ### Relative Motion Estimation Algorithms 🔄
 
 Relative motion estimation involves calculating the disparity in motion between neighboring target modules or structures. This enables precise alignment and docking of spacecraft components through visual feedback. By combining event-based cameras with advanced motion estimation algorithms, we aim to improve the robustness of these systems in dynamic space environments.
+
+
+## 📋 What You Need to Do
+
+In this project, you will use the visual attention mechanism to detect the presence of teh aircraft. 
+We want you to create an innovative algorithm for in-space assembly and/or correct landing on a surface.
+You can use any mechanism or algorithm you think is relevant to solve the problem. 
+You are strongly encouraged to explore other visual attention mechanisms if you prefer. 
+Your task is to come up with a solution that ensures precise pose estimation and alignment of spacecraft components during proximity operations, crucial for successful in-space assembly or achieving a precise landing on a surface.
+
+Here are some references to get you started and/or take inspiration from to build the best solution ever!!!: 
+
+- [Relative Motion Estimation Based on Sensor Eigenfusion Using a Stereoscopic Vision System and Adaptive Statistical Filtering](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7559174)
+- [Relative Motion Estimation for Vision-based
+Formation Flight using Unscented Kalman Filter](https://www.researchgate.net/profile/Eric-Johnson-67/publication/250337270_Relative_Motion_Estimation_for_Vision-Based_Formation_Flight_Using_Unscented_Kalman_Filter/links/552290320cf2f9c13052e46a/Relative-Motion-Estimation-for-Vision-Based-Formation-Flight-Using-Unscented-Kalman-Filter.pdf)
+- [A 5-Point Minimal Solver for Event Camera Relative Motion Estimation](https://rpg.ifi.uzh.ch/docs/ICCV23_Gao.pdf)
+- [MODEL BASED VISUAL RELATIVE MOTION
+ESTIMATION AND CONTROL OF A SPACECRAFT
+UTILIZING COMPUTER GRAPHICS](https://issfd.org/ISSFD_2009/FormationFlyingII/Terui.pdf)
+- [ON THE GENERATION OF A SYNTHETIC EVENT-BASED VISION DATASET FOR
+NAVIGATION AND LANDING](https://arxiv.org/pdf/2308.00394)
+
+
+
 
 ## Project Components 🧩
 
@@ -58,16 +90,9 @@ Finally, we'll simulate an in-space assembly scenario, using the developed syste
 3. **Develop Algorithms**: Start developing the visual attention and motion estimation algorithms, iteratively testing and refining them.
 5. **Simulate Assembly**: Use the developed systems to simulate an in-space assembly scenario, analyzing the performance and accuracy of the pose estimation.
 
-## Explanation attention.py  🖥️ 
-
+## Explanation attention.py  🖥️
 
 This code, developed for the Telluride repository, focuses on converting a video into frames, generating events from these frames, and producing saliency maps for visual attention. It includes several key functions: video2frames extracts frames from a video and saves them; frames2events generates events based on frame differences, considering thresholds for positive and negative changes; see_events visualizes and saves these events; mk_videoframes creates a video from event frames; refactor_data converts event data into a format suitable for the attention model; and run_attention executes the attention model using a spiking CNN with Integrate and Fire neurons, creating saliency maps by processing event frames through layers representing Von Mises filters of different orientations. This model builds on the work by Giulia D’Angelo et al. on event-driven bio-inspired systems for robotics, demonstrating a simplified yet effective approach to visual attention modeling.
-
-### References
-- [D’Angelo, Giulia, et al. "Event driven bio-inspired attentive system for the iCub humanoid robot on SpiNNaker." *Neuromorphic Computing and Engineering* 2.2 (2022): 024008](https://iopscience.iop.org/article/10.1088/2634-4386/ac7ab6).
-- [Iacono, M., D’Angelo, G., Glover, A., Tikhanoff, V., Niebur, E., & Bartolozzi, C. (2019, November). Proto-object based saliency for event-driven cameras. In 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (pp. 805-812). IEEE.](https://ieeexplore.ieee.org/abstract/document/8967943?casa_token=fR5p7q6rp0YAAAAA:lIfq0Q1Qd2nw0rCW4AIpYZA9Lnj9wcNqjSyhGxmM1N3fOgl7D6EoQKt6m7i2FzwtDxY9IZEGLw)
-- [Ghosh, S., D’Angelo, G., Glover, A., Iacono, M., Niebur, E., & Bartolozzi, C. (2022). Event-driven proto-object based saliency in 3D space to attract a robot’s attention. Scientific reports, 12(1), 7645.](https://www.nature.com/articles/s41598-022-11723-6)
-- [D'Angelo, G. (2022). A bio-inspired attentive model to predict perceptual saliency in natural scenes. The University of Manchester (United Kingdom).](https://www.proquest.com/openview/5cef6fddfe963d20ec1d663d6de5ea4f/1?pq-origsite=gscholar&cbl=51922&diss=y)
 
 ## Conclusion 🎉
 
