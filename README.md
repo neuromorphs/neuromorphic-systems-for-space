@@ -2,6 +2,7 @@
 
 Descriptions and materials for the [Telluride 2024 Topic Area](https://sites.google.com/view/telluride-2024/topic-areas-2024/spa24-neuromorphic-systems-for-space-applications).
 
+Find the Google Drive folder [here](https://drive.google.com/drive/u/0/folders/1OvSU4Yx8hom6hj2NHUBJ0ucUUNLWgkBN)
 
 ## Tutorials
 * [On star mapping](https://github.com/neuromorphicsystems/tutorials) by ICNS that can be run on Google Colab
